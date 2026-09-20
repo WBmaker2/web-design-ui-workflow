@@ -1,0 +1,5 @@
+# Managed installation: web-design-ui-workflow
+# Playwright MCP uses its default Playwright Chromium browser because no browser channel override is set.
+[mcp_servers.playwright]
+command = "npx"
+args = ["-y", "@playwright/mcp@0.0.81", "--headless", "--isolated", "--no-webmcp"]

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Web Design UI Workflow"
+  short_description: "Design, build, and browser-test accessible web UI"
+  default_prompt: "Use $web-design-ui-workflow to design or improve this web interface, apply the three child skills in order, and verify the result with Playwright MCP."
+policy:
+  allow_implicit_invocation: true
